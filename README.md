@@ -1,6 +1,6 @@
 # LOGLUV-ENCODING
 
-Convert between xyY (where each channel is a floating poing value) and LogLuv 32bit pixel formats, respectively.
+Convert between xyY (where each channel is a floating poing value) and the LogLuv 32bit pixel format.
 
 `LogLuv` is a pixel format consisting of a 1 bit sign, 15 bits of log2 encoded luminance, and two 8 bit chromanance channels (u* and v* from `CIE L*u*v*`.) This encoding was first used in the TIFF file format for the storage of high dynamic range image data in a compact form.
 
