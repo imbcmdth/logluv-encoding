@@ -1,0 +1,29 @@
+{
+  "name": "logluv-encoding",
+  "description": "Simple conversions between floating point xyY and LogLuv encodings.",
+  "version": "0.5.0",
+  "homepage": "https://github.com/imbcmdth/logluv-encoding",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/imbcmdth/logluv-encoding.git"
+  },
+  "author": {
+    "name": "Jon-Carlos Rivera",
+    "email": "jon.carlos.rivera@gmail.com",
+    "url": "http://jon-carlos.com"
+  },
+  "keywords": [
+    "high dynamic range",
+    "floating point",
+    "encoding",
+    "logluv",
+    "xyz"
+  ],
+  "devDependencies": {
+    "mocha": "1.8.1"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "license": "MIT"
+}
